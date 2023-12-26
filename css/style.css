@@ -13,7 +13,23 @@
 
 
 /* ================================================== */
+.myDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to 200 viewport height (vh) */
+  }
 
+@media (max-width: 767px) {
+    .myDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200vh; /* Set height to 200 viewport height (vh) */
+    }
+  }
+
+  
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&amp;display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@200;300;400;500;600;700;800&amp;display=swap');
 
